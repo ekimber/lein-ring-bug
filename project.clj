@@ -7,5 +7,4 @@
             :profiles {:provided
                        {:dependencies [[munge-tout "0.1.2"]]}}
             :plugins [[lein-ring "0.9.4"]]
-            :ring {:handler lein-ring-bug.core/foo}
-            :uberjar {:aot :all})
+            :ring {:handler lein-ring-bug.core/foo})
